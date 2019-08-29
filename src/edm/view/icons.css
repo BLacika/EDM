@@ -1,0 +1,43 @@
+#employeeMenu > .label {
+    -fx-graphic: url("../assets/people-icon.png");
+}
+
+#openMenu > .label {
+    -fx-graphic: url("../assets/open-file.png");
+}
+#openMenu .accelerator-text{
+    -fx-graphic: none;
+}
+
+#newMenu > .label {
+    -fx-graphic: url("../assets/new-file.png");
+}
+#newMenu .accelerator-text{
+    -fx-graphic: none;
+}
+
+#payrollMenu > .label {
+    -fx-graphic: url("../assets/send-icon.png");
+}
+
+#exitMenu > .label {
+    -fx-graphic: url("../assets/close-icon.png");
+}
+
+#saveAsMenu > .label {
+    -fx-graphic: url("../assets/save-as-icon.png");
+}
+#saveAsMenu .accelerator-text{
+    -fx-graphic: none;
+}
+
+#saveMenu > .label {
+    -fx-graphic: url("../assets/save-icon.png");
+}
+#saveMenu .accelerator-text{
+    -fx-graphic: none;
+}
+
+#settingsMenu > .label {
+    -fx-graphic: url("../assets/settings-icon.png");
+}
